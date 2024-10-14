@@ -5,10 +5,11 @@
 }
 
 :root{
-    --CF: #E6E6E6;
+    --CF: #f0f4f8;
     --CP: #049DBF;
     --CS: #03658C;
     --CT: #060105;
+    --CFC:#ffffff;
     --FT: 'Inter', Arial, sans-serif;
     --Transition: all 0.3s ease;
 
@@ -18,9 +19,25 @@ body{
     font-family: var(--FT);
 }
 
+.Container{
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
 header{
-    background-color: var(--CF);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--CFC);
+    box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.137);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
 }
 
 .Logo{
@@ -48,3 +65,28 @@ header{
     color: var(--CP);
 }
 
+main{
+    margin-top: 5rem;
+}
+
+section{
+    padding: 3rem 0;
+}
+
+.dev{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.dev-texto h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--CP);
+}
+
+.dev-texto p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
