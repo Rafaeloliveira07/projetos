@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --CF: #E6E6E6;
+    --CP: #049DBF;
+    --CS: #03658C;
+    --CT: #060105;
+    --FT: 'Inter', Arial, sans-serif;
+    --Transition: all 0.3s ease;
+
+}
+
+body{
+    font-family: var(--FT);
+}
+
+header{
+    background-color: var(--CF);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--CP);
+}
+
+.nav-Links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-Links li{
+    margin-left: 2rem;
+}
+
+.nav-Links a{
+    color: var(--CT);
+    text-decoration: none;
+    transition: var(--Transition);
+}
+
+.nav-Links a:hover{
+    color: var(--CP);
+}
+

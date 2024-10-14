@@ -1,1 +1,12 @@
+html{
+    background-color: #E6E6E6;
+}
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #0424D9;
+}
