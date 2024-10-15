@@ -90,3 +90,34 @@ section{
     font-size: 1rem;
     margin-bottom: 2rem;
 }
+
+.botao-contato{
+    background-color: var(--CP);
+    text-decoration: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: var(--Transition);
+}
+
+.botao-contato:hover{
+    background-color: var(--CS);
+}
+
+.dev-imagem{
+    position: relative;
+}
+
+.imagem-perfil{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.205);
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+}
