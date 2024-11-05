@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Dimitri';
+    src: url('DIMIS___.TTF') format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--CF);
+}
+
+:root{
+    --CF: #3C3D40;
+    --CH: #212226;
+    --CT: #c6cbcf;
+    --T1: 'Dimitri';
+    --T2: "Anton SC", sans-serif;
+}
+
+header{
+    margin: auto;
+    min-width: 300px;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: var(--CH);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+header h1{
+    color: var(--CT);
+    font-family: var(--T1);
+    font-size: 35px;
+    padding: 30px 0px 20px 0px;
+    letter-spacing: 5px;
+}
+
+img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+header p{
+    color: var(--CT);
+    font-family: var(--T2);
+    padding: 20px 0px 15px 0px;
+    font-size: 15px;
+}
+
+button{
+    padding: 10px;
+}
